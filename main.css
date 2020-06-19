@@ -1,0 +1,24 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+/*-----end of reset-----*/
+
+body {
+  background: url('assets/freedom.jpg') no-repeat center center fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+p {
+  font-variant: small-caps;
+  font-size: 30px;
+  font-family: arial;
+}
+
