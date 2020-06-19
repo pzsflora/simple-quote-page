@@ -10,15 +10,23 @@
 
 body {
   background: url('assets/freedom.jpg') no-repeat center center fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+}
+
+
+div {
+  padding-top: 4rem;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 p {
+  height: 20vh;
   font-variant: small-caps;
   font-size: 30px;
   font-family: arial;
 }
 
+p, h2 {
+  text-align: center;
+}
